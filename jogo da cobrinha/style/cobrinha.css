@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+.game-container{
+    border: 3px solid #2d4606;
+}
+
+canvas{
+    display: block;
+    border: 1px solid #000;
+    background-color: #333;
+}
+button{
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 45%;
+    margin-bottom: 2%;
+}
